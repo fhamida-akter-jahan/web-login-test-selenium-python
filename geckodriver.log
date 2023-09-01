@@ -278,3 +278,40 @@ DevTools listening on ws://127.0.0.1:55736/devtools/browser/52aba08e-1dc0-4287-a
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practicetestautomation.com."
 1693573924992	Marionette	INFO	Stopped listening on port 55807
 1693573927060	Marionette	INFO	Stopped listening on port 55809
+1693574332493	geckodriver	INFO	Listening on 127.0.0.1:56078
+1693574333017	geckodriver	INFO	Listening on 127.0.0.1:56083
+1693574333548	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilezxT5RD"
+1693574333551	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilemBlUhd"
+1693574333745	geckodriver	INFO	Listening on 127.0.0.1:56102
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693574334114	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileZmlfv8"
+1693574334640	Marionette	INFO	Marionette enabled
+1693574334656	Marionette	INFO	Marionette enabled
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693574334843	Marionette	INFO	Listening on port 56117
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693574334903	Marionette	INFO	Listening on port 56118
+Read port: 56117
+WebDriver BiDi listening on ws://127.0.0.1:56084
+Read port: 56118
+1693574335071	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://127.0.0.1:56079
+1693574335174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693574335258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693574335674	Marionette	INFO	Listening on port 56140
+WebDriver BiDi listening on ws://127.0.0.1:56103
+Read port: 56140
+1693574336055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56084/devtools/browser/9e23d45a-a548-47db-9d0d-c7578424caec
+DevTools listening on ws://127.0.0.1:56079/devtools/browser/c6e7f342-c38e-4e74-bc22-f377c89d7d3e
+DevTools listening on ws://127.0.0.1:56103/devtools/browser/f0c83192-1df7-4f13-a6e5-5e62726faa1a
+1693574341598	Marionette	INFO	Stopped listening on port 56118
+1693574341874	Marionette	INFO	Stopped listening on port 56117
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practicetestautomation.com."
+1693574345665	Marionette	INFO	Stopped listening on port 56140
