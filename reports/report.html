@@ -253,10 +253,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 29-Aug-2023 at 21:53:51 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 01-Sep-2023 at 21:25:59 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Summary</h2>
-    <p>3 tests ran in 26.94 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>0 tests ran in 0.11 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">3 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -267,36 +267,33 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_login_page.py::TestPositiveScenarios::test_positive_login</td>
-          <td class="col-duration">10.03</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">tests/test_login_page.py::TestPositiveScenarios::test_positive_login::setup</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
-<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close chrome driver
+            <div class="log">request = &lt;SubRequest &#x27;driver&#x27; for &lt;Function test_positive_login&gt;&gt;<br/><br/>    @pytest.fixture()<br/>    def driver(request):<br/>        browser = request.config.getoption(&quot;--browser&quot;)<br/>        print(f&quot;Creating {browser} driver&quot;)<br/>        if browser == &quot;chrome&quot;:<br/>            my_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))<br/>        elif browser == &quot;firefox&quot;:<br/>            my_driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))<br/>        else:<br/>&gt;           raise TypeError(f&quot;Expected &#x27;chrome&#x27; or &#x27;firefox&#x27;, but got {browser}&quot;)<br/><span class="error">E           TypeError: Expected &#x27;chrome&#x27; or &#x27;firefox&#x27;, but got edge</span><br/><br/>tests/conftest.py:18: TypeError<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating edge driver
 <br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_username</td>
-          <td class="col-duration">6.98</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_login[incorrectUser-Password123-Your username is invalid!]::setup</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
-<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close chrome driver
+            <div class="log">request = &lt;SubRequest &#x27;driver&#x27; for &lt;Function test_negative_login[incorrectUser-Password123-Your username is invalid!]&gt;&gt;<br/><br/>    @pytest.fixture()<br/>    def driver(request):<br/>        browser = request.config.getoption(&quot;--browser&quot;)<br/>        print(f&quot;Creating {browser} driver&quot;)<br/>        if browser == &quot;chrome&quot;:<br/>            my_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))<br/>        elif browser == &quot;firefox&quot;:<br/>            my_driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))<br/>        else:<br/>&gt;           raise TypeError(f&quot;Expected &#x27;chrome&#x27; or &#x27;firefox&#x27;, but got {browser}&quot;)<br/><span class="error">E           TypeError: Expected &#x27;chrome&#x27; or &#x27;firefox&#x27;, but got edge</span><br/><br/>tests/conftest.py:18: TypeError<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating edge driver
 <br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_password</td>
-          <td class="col-duration">9.88</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_login[student-incorrectPassword-Your password is invalid!]::setup</td>
+          <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
-<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close chrome driver
+            <div class="log">request = &lt;SubRequest &#x27;driver&#x27; for &lt;Function test_negative_login[student-incorrectPassword-Your password is invalid!]&gt;&gt;<br/><br/>    @pytest.fixture()<br/>    def driver(request):<br/>        browser = request.config.getoption(&quot;--browser&quot;)<br/>        print(f&quot;Creating {browser} driver&quot;)<br/>        if browser == &quot;chrome&quot;:<br/>            my_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))<br/>        elif browser == &quot;firefox&quot;:<br/>            my_driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))<br/>        else:<br/>&gt;           raise TypeError(f&quot;Expected &#x27;chrome&#x27; or &#x27;firefox&#x27;, but got {browser}&quot;)<br/><span class="error">E           TypeError: Expected &#x27;chrome&#x27; or &#x27;firefox&#x27;, but got edge</span><br/><br/>tests/conftest.py:18: TypeError<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating edge driver
 <br/></div></td></tr></tbody></table></body></html>
