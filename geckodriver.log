@@ -119,3 +119,162 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
 DevTools listening on ws://127.0.0.1:52886/devtools/browser/1bfeb290-b2e7-4fe3-a2fb-152e3e0c6387
 1693570865788	Marionette	INFO	Stopped listening on port 52893
+1693572041469	geckodriver	INFO	Listening on 127.0.0.1:53215
+1693572041893	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileKVAgUz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693572042464	Marionette	INFO	Marionette enabled
+1693572042574	Marionette	INFO	Listening on port 53223
+Read port: 53223
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53216
+1693572042752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileKVAgUz/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53216/devtools/browser/d5d88cb7-7ead-4ca6-9e4d-8ca57f060ba8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practicetestautomation.com."
+1693572050945	Marionette	INFO	Stopped listening on port 53223
+1693572068291	geckodriver	INFO	Listening on 127.0.0.1:53330
+1693572068708	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileRDDOUj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693572069252	Marionette	INFO	Marionette enabled
+1693572069396	Marionette	INFO	Listening on port 53339
+Read port: 53339
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53331
+1693572069882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileRDDOUj/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53331/devtools/browser/59dc3e72-77ac-4ead-b01b-ccc9ae55f0c0
+1693572075364	Marionette	INFO	Stopped listening on port 53339
+1693572077718	geckodriver	INFO	Listening on 127.0.0.1:53376
+1693572078141	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofile6e2Fcz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693572078648	Marionette	INFO	Marionette enabled
+1693572078741	Marionette	INFO	Listening on port 53384
+Read port: 53384
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53377
+1693572079047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofile6e2Fcz/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53377/devtools/browser/ef2dc495-09eb-41e4-a6ed-ca61e2afede9
+1693572084282	Marionette	INFO	Stopped listening on port 53384
+1693572111635	geckodriver	INFO	Listening on 127.0.0.1:53466
+1693572112058	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileZwavEG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693572112562	Marionette	INFO	Marionette enabled
+1693572112654	Marionette	INFO	Listening on port 53474
+Read port: 53474
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53467
+1693572112954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileZwavEG/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53467/devtools/browser/975ce584-1427-49ee-a877-fb43567386c3
+1693572125336	Marionette	INFO	Stopped listening on port 53474
+1693572141070	geckodriver	INFO	Listening on 127.0.0.1:53573
+1693572141494	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileQrf7Tn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693572142007	Marionette	INFO	Marionette enabled
+1693572142101	Marionette	INFO	Listening on port 53581
+Read port: 53581
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53574
+1693572142399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileQrf7Tn/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53574/devtools/browser/93ff9756-802d-4306-9b83-e221eb7aef4b
+1693572147405	Marionette	INFO	Stopped listening on port 53581
+1693572150042	geckodriver	INFO	Listening on 127.0.0.1:53623
+1693572150468	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilef0xwSk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693572150968	Marionette	INFO	Marionette enabled
+1693572151062	Marionette	INFO	Listening on port 53631
+Read port: 53631
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53624
+1693572151361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilef0xwSk/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53624/devtools/browser/32fab0ac-1fa6-4702-9614-671af67ffc56
+1693572156555	Marionette	INFO	Stopped listening on port 53631
+1693573182094	geckodriver	INFO	Listening on 127.0.0.1:54980
+1693573182511	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileYDG3cX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693573183012	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693573183178	Marionette	INFO	Listening on port 54988
+Read port: 54988
+WebDriver BiDi listening on ws://127.0.0.1:54981
+1693573183425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54981/devtools/browser/5a3b9373-4c04-4d71-a32c-2d9f19eaa822
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practicetestautomation.com."
+1693573191531	Marionette	INFO	Stopped listening on port 54988
+1693573208085	geckodriver	INFO	Listening on 127.0.0.1:55100
+1693573208509	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileBnUbjP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693573208969	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693573209132	Marionette	INFO	Listening on port 55109
+Read port: 55109
+WebDriver BiDi listening on ws://127.0.0.1:55101
+1693573209375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55101/devtools/browser/b68b6c51-c728-48ea-a03e-5e5be1338940
+1693573214916	Marionette	INFO	Stopped listening on port 55109
+1693573217591	geckodriver	INFO	Listening on 127.0.0.1:55148
+1693573218012	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilePdbHBh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693573218488	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693573218650	Marionette	INFO	Listening on port 55157
+Read port: 55157
+WebDriver BiDi listening on ws://127.0.0.1:55149
+1693573218888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55149/devtools/browser/1447ae0b-3526-43ea-adf4-0f72c01e75a0
+1693573224224	Marionette	INFO	Stopped listening on port 55157
+1693573913587	geckodriver	INFO	Listening on 127.0.0.1:55731
+1693573913675	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileZytWiH"
+1693573913797	geckodriver	INFO	Listening on 127.0.0.1:55735
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693573914096	geckodriver	INFO	Listening on 127.0.0.1:55739
+1693573914467	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693573914949	Marionette	INFO	Listening on port 55776
+WebDriver BiDi listening on ws://127.0.0.1:55732
+Read port: 55776
+1693573915027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693573915139	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilessW1tQ"
+1693573915139	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofile1s4Mcm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693573915820	Marionette	INFO	Marionette enabled
+1693573915839	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693573916240	Marionette	INFO	Listening on port 55807
+1693573916258	Marionette	INFO	Listening on port 55809
+Read port: 55807
+Read port: 55809
+WebDriver BiDi listening on ws://127.0.0.1:55740
+1693573916541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:55736
+1693573916587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55732/devtools/browser/ed76bf69-2bb5-408d-8a6b-65987110baa6
+DevTools listening on ws://127.0.0.1:55740/devtools/browser/4110d112-a5a6-4408-9771-4fa5855a12ab
+DevTools listening on ws://127.0.0.1:55736/devtools/browser/52aba08e-1dc0-4287-ad30-778a0578dca2
+1693573921491	Marionette	INFO	Stopped listening on port 55776
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practicetestautomation.com."
+1693573924992	Marionette	INFO	Stopped listening on port 55807
+1693573927060	Marionette	INFO	Stopped listening on port 55809
