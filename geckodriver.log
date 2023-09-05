@@ -315,3 +315,53 @@ DevTools listening on ws://127.0.0.1:56103/devtools/browser/f0c83192-1df7-4f13-a
 1693574341874	Marionette	INFO	Stopped listening on port 56117
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://practicetestautomation.com."
 1693574345665	Marionette	INFO	Stopped listening on port 56140
+1693742321865	geckodriver	INFO	Listening on 127.0.0.1:60420
+1693742322437	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofileT1mkH3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693742323196	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693742323475	Marionette	INFO	Listening on port 60440
+Read port: 60440
+WebDriver BiDi listening on ws://127.0.0.1:60421
+1693742323760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60421/devtools/browser/3dd7a7f3-9a10-4e9e-8179-66d80962e84f
+1693742473747	Marionette	INFO	Stopped listening on port 60440
+1693742664984	geckodriver	INFO	Listening on 127.0.0.1:60597
+1693742665596	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilea6kSa2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693742666205	geckodriver	INFO	Listening on 127.0.0.1:60618
+1693742666273	geckodriver	INFO	Listening on 127.0.0.1:60622
+1693742666669	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693742666994	Marionette	INFO	Listening on port 60640
+Read port: 
+1693742667068	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 60640
+WebDriver BiDi listening on ws://127.0.0.1:60598
+1693742667248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693742667287	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilekYAnBW"
+1693742667287	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/lx/xjykx1xx54l00kzsvk8lm28h0000gp/T/rust_mozprofilektY3uF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693742667933	Marionette	INFO	Marionette enabled
+1693742667968	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693742668385	Marionette	INFO	Listening on port 60670
+Read port: 60670
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693742668536	Marionette	INFO	Listening on port 60676
+Read port: 60676
+WebDriver BiDi listening on ws://127.0.0.1:60623
+1693742668757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:60619
+1693742668875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60598/devtools/browser/884d4d42-3054-4111-b89f-5799982f3d40
+DevTools listening on ws://127.0.0.1:60619/devtools/browser/7f90ac95-77c2-4109-96bb-91e9652b42d0
+DevTools listening on ws://127.0.0.1:60623/devtools/browser/e0e51adb-3f8d-4850-9fef-45df433be973
+1693742673020	Marionette	INFO	Stopped listening on port 60640
+1693742674188	Marionette	INFO	Stopped listening on port 60676
+1693742674490	Marionette	INFO	Stopped listening on port 60670

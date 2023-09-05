@@ -10,10 +10,10 @@ class TestPositiveScenarios:
     @pytest.mark.login
     @pytest.mark.positive
     def test_positive_login(self, driver):
-
         # Go to webpage
         driver.get("https://practicetestautomation.com/practice-test-login/")
         time.sleep(2)
+        # driver.close()
 
         # Type username into the Username field.
         username_locator = driver.find_element(By.ID, "username")
