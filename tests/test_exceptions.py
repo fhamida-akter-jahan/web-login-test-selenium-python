@@ -139,7 +139,7 @@ class TestExceptions:
         # Wait for 3 seconds for the second input field to be displayed
         wait = WebDriverWait(driver, 6)
         row_2_input_element = wait.until(ec.visibility_of_element_located(
-            (By.XPATH, "//div[@id='row2']/input"))), "Failed waiting for Row 2 input visible "
+            (By.XPATH, "//div[@id='row2']/input")), "Failed waiting for Row 2 input visible ")
 
         # Verify second input field is displayed
         # row_2_input_locator = driver.find_element(By.XPATH, "//div[@id='row2']/input")
