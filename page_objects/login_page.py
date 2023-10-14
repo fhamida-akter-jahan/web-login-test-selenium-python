@@ -13,27 +13,18 @@ class LoginPage(BasePage):
     __username_field = (By.ID, "username")
     __password_field = (By.NAME, "password")
     __submit_btn = (By.XPATH, "//button[@class='btn']")
+    __error_message = (By.ID, "error")
 
     def __init__(self, driver: WebDriver):
         super().__init__(driver)
 
     def open(self):
-        super().open_url(self.__url)
+        super()._open_url(self.__url)
 
     def execute_login(self, username: str, password: str):
         super()._type(self.__username_field, username)
         super()._type(self.__password_field, password)
         super()._click(self.__submit_btn)
 
-        # ----the above method is used for the below code in an inheritance form
-        # wait = WebDriverWait(self._driver, 10)
-        # wait.until(ec.visibility_of_element_located(self.__username_field))
-        # self._driver.find_element(self.__username_field).send_keys(username)
-        #
-        # # Type password into Password field
-        # wait.until(ec.visibility_of_element_located(self.__password_field))
-        # self._driver.find_element(self.__password_field).send_keys(password)
-        #
-        # # Push submit button
-        # wait.until(ec.visibility_of_element_located(self.__submit_btn))
-        # self._driver.find_element(self.__submit_btn).click()
+    def get_error_message(self) -> str:
+        return super()._get_text(self.__error_message, time=3)
