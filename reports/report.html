@@ -253,10 +253,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 29-Aug-2023 at 21:53:51 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 01-Sep-2023 at 22:19:06 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Summary</h2>
-    <p>3 tests ran in 26.94 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>6 tests ran in 17.58 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -270,33 +270,66 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_login_page.py::TestPositiveScenarios::test_positive_login</td>
-          <td class="col-duration">10.03</td>
+          <td class="col-name">tests/test_login_page.py::TestPositiveScenarios::test_positive_login[chrome]</td>
+          <td class="col-duration">12.02</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
-<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close chrome driver
+            <div class="log">[gw0] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/>[gw0] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw0] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw0] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing chrome driver
 <br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_username</td>
-          <td class="col-duration">6.98</td>
+          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_login[chrome-student-incorrectPassword-Your password is invalid!]</td>
+          <td class="col-duration">9.41</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
-<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close chrome driver
+            <div class="log">[gw3] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/>[gw3] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw3] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw3] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing chrome driver
 <br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_password</td>
-          <td class="col-duration">9.88</td>
+          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_login[firefox-incorrectUser-Password123-Your username is invalid!]</td>
+          <td class="col-duration">12.71</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
-<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close chrome driver
+            <div class="log">[gw4] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/>[gw4] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw4] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw4] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating firefox driver
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing firefox driver
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_login[chrome-incorrectUser-Password123-Your username is invalid!]</td>
+          <td class="col-duration">12.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw2] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/>[gw2] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw2] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw2] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating chrome driver
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing chrome driver
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_login_page_negative.py::TestNegativeScenarios::test_negative_login[firefox-student-incorrectPassword-Your password is invalid!]</td>
+          <td class="col-duration">12.87</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw5] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/>[gw5] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw5] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw5] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating firefox driver
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing firefox driver
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_login_page.py::TestPositiveScenarios::test_positive_login[firefox]</td>
+          <td class="col-duration">16.65</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw1] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/>[gw1] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw1] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9[gw1] darwin -- Python 3.9.13 /usr/local/opt/python@3.9/bin/python3.9<br/> -----------------------------Captured stdout setup------------------------------ <br/>Creating firefox driver
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing firefox driver
 <br/></div></td></tr></tbody></table></body></html>
