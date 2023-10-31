@@ -1,3 +1,3 @@
+# The related Selenium Testing: https://practicetestautomation.com/practice-test-login/ 
 # web-login-test-selenium-python
-Testing website’s login using selenium 
-parameterized shows how to add different browsers and check the if browser is not configured error message alert.
+Testing website’s login using selenium
